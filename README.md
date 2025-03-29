@@ -1,3 +1,4 @@
+
 # Mars_Task_1
 
 ## Learning Git 😁
@@ -25,3 +26,10 @@ cmd used are:
 I am using VScode for editing and making the code as it is easy to use.
 We can use vscode using the command ' code filename.type '
 In this task i have to write a Bash script.
+
+I faced challenges in doing simple task because i am not that much familiar with bash still.
+Therefor I used help from GeeksforGeeks and Stackoverflow. Both for getting new function and understand what it do.
+I also came to know that unlike C space has some meaning in Bash, I was getting some error due to i add space when assigning variable.
+
+## Detect Red Circle and make a 360 turn
+
