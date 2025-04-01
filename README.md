@@ -33,3 +33,9 @@ I also came to know that unlike C space has some meaning in Bash, I was getting 
 
 ## Detect Red Circle and make a 360 turn
 
+## Morse Code to English translator
+Morse code is a system which represent letters and numbers in Dot and Dash format.
+It has both military and Scientific uses to send and recieve long distance message using radios, sound, light .....
+We have different type of Morse code, but the one I implemented is Internation Morse Code.
+
+I faced some challenges when trying to code in C to effectively implement a dictionary type data structure, therefore i used python for this.
