@@ -39,3 +39,15 @@ It has both military and Scientific uses to send and recieve long distance messa
 We have different type of Morse code, but the one I implemented is Internation Morse Code.
 
 I faced some challenges when trying to code in C to effectively implement a dictionary type data structure, therefore i used python for this.
+
+## Decode Encrypted Message
+The task is to decode a ecrypted message using logic.
+I have implemented the code to decode the the message.
+The program take encrypted message as input and print decoded message.
+
+I have used C language for this code.
+This task wasn't really a challenge, but a mistake some will miss is the case when char goes below 'A'. otherwise it's a easy one.
+
+## Martian Filter to remove noise.
+
+## Convert Euler angle to Quaternion system.
