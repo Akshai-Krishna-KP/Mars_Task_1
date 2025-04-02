@@ -49,5 +49,34 @@ I have used C language for this code.
 This task wasn't really a challenge, but a mistake some will miss is the case when char goes below 'A'. otherwise it's a easy one.
 
 ## Martian Filter to remove noise.
+Muchiko Filter (Mean Filter) and Sanchiko Filter(Median Filter) is used to remove the noise.
+Muchiko Filter is weak, when filtering Noise. Bcz just one extreme value can skew the mean.
+Sanchiko is likely give a stable reading bcz it ignores extreme value.
+But My choice is Hybrid, bcz it will give more smooth reading than Sanchiko keeping the property of it.
 
 ## Convert Euler angle to Quaternion system.
+Many Software for 3d modeling uses Euler Angle bcz it's easy to understand.
+but it comes with disadvantages like Gimbal lock and Interpolation issue.
+Gimbal lock occur when two rotational axes in 3-angle align, causing the loss of one DOF.
+To overcome this, we have different system invloving imaginary numbers calles Quaternions.
+
+This program convert given Euler angle to Quaternion system.
+```math
+w = \cos\left(\frac{\phi}{2}\right) \cos\left(\frac{\theta}{2}\right) \cos\left(\frac{\psi}{2}\right) + \sin\left(\frac{\phi}{2}\right) \sin\left(\frac{\theta}{2}\right) \sin\left(\frac{\psi}{2}\right)
+```
+
+```math
+x = \sin\left(\frac{\phi}{2}\right) \cos\left(\frac{\theta}{2}\right) \cos\left(\frac{\psi}{2}\right) - \cos\left(\frac{\phi}{2}\right) \sin\left(\frac{\theta}{2}\right) \sin\left(\frac{\psi}{2}\right)
+```
+
+```math
+y = \cos\left(\frac{\phi}{2}\right) \sin\left(\frac{\theta}{2}\right) \cos\left(\frac{\psi}{2}\right) + \sin\left(\frac{\phi}{2}\right) \cos\left(\frac{\theta}{2}\right) \sin\left(\frac{\psi}{2}\right)
+```
+
+```math
+z = \cos\left(\frac{\phi}{2}\right) \cos\left(\frac{\theta}{2}\right) \sin\left(\frac{\psi}{2}\right) - \sin\left(\frac{\phi}{2}\right) \sin\left(\frac{\theta}{2}\right) \cos\left(\frac{\psi}{2}\right)
+```
+*Where:*
+- $\phi$ = Roll (rotation about X-axis)
+- $\theta$ = Pitch (rotation about Y-axis)
+- $\psi$ = Yaw (rotation about Z-axis)
