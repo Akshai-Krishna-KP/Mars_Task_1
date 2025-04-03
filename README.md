@@ -80,3 +80,11 @@ z = \cos\left(\frac{\phi}{2}\right) \cos\left(\frac{\theta}{2}\right) \sin\left(
 - $\phi$ = Roll (rotation about X-axis)
 - $\theta$ = Pitch (rotation about Y-axis)
 - $\psi$ = Yaw (rotation about Z-axis)
+
+## Brick_Map Creation
+The task consisted of some co-ordinate relative to starting point where some obstacles are present.
+The task demanded the knowldege of File handling and matrix manipulation.
+The task was relatively simple.
+there is a bonus question to find Shortest Path, which i will do it later.
+
+
