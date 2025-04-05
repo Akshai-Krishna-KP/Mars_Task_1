@@ -121,4 +121,6 @@ my mistakes was so minute but devastating for me.
 
 **BFS** : [Explaination by Jenny mam.](https://youtu.be/vf-cxgUXcMk?si=6uzlO2i-oNjB3c-G)
 
+**Pinhole Camera** : [What is Pinhole Camera](https://youtu.be/jhBC39xZVnw?si=UekH3thwEChdgxS_), [Focal length and FOV](https://www.edmundoptics.in/knowledge-center/application-notes/imaging/understanding-focal-length-and-field-of-view/?srsltid=AfmBOopNjWgLFqRAnUjA9ZWIoccGPA7cHe4O1MA-AYEgodLsVPLZ_35L)
+
 ## Summary

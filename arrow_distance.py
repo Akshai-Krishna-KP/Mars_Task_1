@@ -1,9 +1,16 @@
 import cv2 as cv
 import numpy as np
+import math
 
-def find_distance(perceived_width):
-	#Implement the function to calculate distance
-	pass
+#Camera Specification
+HORIZONTAL_RESOLUTION = 1280 #px
+VERTICAL_RESOLUTION = 720 # px
+DIAGONAL_FOV = 55 # degree
+REAL_ARROW_WIDTH = 17.0 # cm
+
+def focal_length():
+	diagonal_length = math.sqrt(HORIZONTAL_RESOLUTION ** 2 + VERTICAL_RESOLUTION ** 2)
+	focal_len = (diagonal_length / 2) / (math.tan(DIAGONAL_FOV / 2))
 
 def detect_arrow(image_path):
     #Read the image
@@ -39,6 +46,11 @@ def detect_arrow(image_path):
 	cv.waitKey(0)
 	cv.destroyAllWindows()
 
+def find_distance(perceived_width):
+	#Implement the function to calculate distance
+	if perceived_width == 0:
+		return float("Some error must have happend")
+	return (REAL_ARROW_WIDTH * focal_length) / perceived_width
 
 # Provide the path to your image
 image_path = 'arrow.jpg'
