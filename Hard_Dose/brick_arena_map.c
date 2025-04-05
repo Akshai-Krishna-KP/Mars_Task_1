@@ -55,6 +55,10 @@ void print_map(const char *filename){
 
     for(int i = 0; i < N; i++){
         for(int j = 0; j < N; j++){
+	    if(i == centerX && j == centerY){
+	    	printf("S ");
+	    	continue;
+	    }
             printf("%d ", map[i][j]);
         }
         printf("\n");
@@ -107,7 +111,7 @@ int find_shortest_path(point start, point end){
 
 int main(){
     printf("Arena Map :- \n");
-    print_map("sample.txt");
+    print_map("map_coordinate.txt");
 
     point start = {0, 0}, end = {10,10};
     
