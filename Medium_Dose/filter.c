@@ -68,7 +68,7 @@ int main(){
     //define data array and get value from file
     double data[N];
     int n = read_data(data, N);
-    int wSize
+    int wSize;
     
     //check the validity of n and window size
     if(n == 0 || n < wSize){
@@ -77,8 +77,8 @@ int main(){
     }
 
     //dynamically making a array for results
-    double *muchiko_result = (double*)malloc((n - m + 1) * sizeof(double));
-    double *sanchiko_result = (double*)malloc((n - m + 1) * sizeof(double));
+    double *muchiko_result = (double*)malloc((n - wSize + 1) * sizeof(double));
+    double *sanchiko_result = (double*)malloc((n - wSize + 1) * sizeof(double));
     if (!muchiko_result || !sanchiko_result) {
         perror("Memory allocation failed");
         return 1;
@@ -104,5 +104,5 @@ int main(){
     printf("Sanchiko Filter will remove spikes in data and reduce noise, but not be smooth\n");
     printf("Best option will be to use the filter according to the need/n or maybe in hybrid depending on the situation.\n");
 
-    result 0;
+    return 0;
 }
