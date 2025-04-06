@@ -2,7 +2,7 @@
 # #Mars Task-1
 <hr>
 
-### Learning Git 😁
+### Learning Git 
 I learned about Git and Github, which i already know but forgot due to not using lately.
 The resources i used are the YT vieo provided by the FreeCodeCamp.
 
@@ -10,7 +10,7 @@ The resources i used are the YT vieo provided by the FreeCodeCamp.
 
 ### 1.Terminal Commands 
 I learned Bash Script from the tutorial from FreecodeCamp yt video and to clear some doubt arise from that i watched a beginner video on linux cmd.
-Now i uncderstand that Bash(Bourne Again SHell) is command-line interpreter widely used in LinuX for many years.:smirk:
+Now i uncderstand that Bash(Bourne Again SHell) is command-line interpreter widely used in LinuX for many years.
 cmd used are:
   * touch - to create a new file
   * cd - to go into a directory
@@ -35,7 +35,7 @@ I also came to know that unlike C space has some meaning in Bash, I was getting 
 
 ## Medium Dose
 
-### 1.Detect Red Circle and make a 360 turn :red_circle:
+### 1.Detect Red Circle and make a 360 turn 
 The Task is to adjust the navigation system such that the center of the Mars Rover is perfectly center the circle.
 I assumed that the circle is under the camera and therefore the distance if 55cm. we take the unit vector and change the frame of reference as center of the rover as origin.
 This is a fairly good question acc. to me.
@@ -43,7 +43,7 @@ This is a fairly good question acc. to me.
 ### 2.Morse Code to English translator 
 Morse code is a system which represent letters and numbers in Dot and Dash format.
 It has both military and Scientific uses to send and recieve long distance message using radios, sound, light .....
-We have different type of Morse code, but the one I implemented is Internation Morse Code. 📡📶
+We have different type of Morse code, but the one I implemented is Internation Morse Code. 
 
 I faced some challenges when trying to code in C to effectively implement a dictionary type data structure, therefore i used python for this.
 
@@ -52,14 +52,14 @@ The task is to decode a encrypted message using logic.
 I have implemented the code to decode the the message.
 The program take encrypted message as input and print decoded message.
 
-This task wasn't really a challenge, but a mistake some will miss is the case when char goes below 'A'. otherwise :sunglasses: it's a easy one.
+This task wasn't really a challenge, but a mistake some will miss is the case when char goes below 'A'. otherwise  it's a easy one.
 
 ### 4.Martian Filter to remove noise.
 Muchiko Filter (Mean Filter) and Sanchiko Filter(Median Filter) is used to remove the noise.
 Muchiko Filter is weak, when filtering Noise. Bcz just one extreme value can skew the mean.
 Sanchiko is likely give a stable reading bcz it ignores extreme value.
 But My choice is Hybrid, bcz it will give more smooth reading than Sanchiko keeping the property of it.
-also then i don't know the correct way to implement the hybrid. :neutral_face:
+also then i don't know the correct way to implement the hybrid.
 
 ### 5.Convert Euler angle to Quaternion system.
 Many Software for 3d modeling uses Euler Angle bcz it's easy to understand.
@@ -67,7 +67,7 @@ but it comes with disadvantages like Gimbal lock and Interpolation issue.
 Gimbal lock occur when two rotational axes in 3-angle align, causing the loss of one DOF.
 To overcome this, we have different system invloving imaginary numbers calles Quaternions.
 
-This program convert given Euler angle to Quaternion system. :scream::scream::scream:
+This program convert given Euler angle to Quaternion system.
 ```math
 w = \cos\left(\frac{\phi}{2}\right) \cos\left(\frac{\theta}{2}\right) \cos\left(\frac{\psi}{2}\right) + \sin\left(\frac{\phi}{2}\right) \sin\left(\frac{\theta}{2}\right) \sin\left(\frac{\psi}{2}\right)
 ```
@@ -114,7 +114,7 @@ Where:
 Now the promblem was to find focal length from given measurement. Again through may youtube video and some papers
 i found another equation explaning the relation between focal length and FOV. which was not easy to understand
 even now i am not sure, my understanding is correct or not.
-The eqaution was :- :dizzy_face:
+The eqaution was :- 
 \[
 f = \frac{\sqrt{w^2 + h^2} \,/\, 2}{\tan(\theta_d / 2)}
 \]
@@ -132,11 +132,11 @@ The possible challenges to the distance will inacuracy in some measurement. i th
 This is surely a entire new topic for me.
 What i understand is that this tree is used to determine and give command to the computer how to behave in a certain situation.
 Earilier they used FSM(Finite State Machine) which had some disadvantages which was overcome by BT.
-:no_mouth:I can't say much abt BT wihtout further studying and improving my knowledge.
+I can't say much abt BT wihtout further studying and improving my knowledge.
 
 ## Bonus
 The bonus question was to find the Shortest distance from a point to another point.
-:sunglasses:due to my luck, i guess, sir was teaching BFS topic and graph theory in discreet and DSA.
+due to my luck, i guess, sir was teaching BFS topic and graph theory in discreet and DSA.
 therefore finding the answer was simple, but implementiong was tough i say.
 Now i started to understand why a BUG will ruin your entire day, just like we saw in reels.
 my mistakes was so minute but devastating for me.
