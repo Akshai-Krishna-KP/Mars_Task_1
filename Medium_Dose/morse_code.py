@@ -6,6 +6,7 @@ There will be a small pause between this to distingush letter and word."""
 """I am considering International Morse code,
    also input morse code as string with space for 1 pause and distinguish letter and 3 for words"""
 
+# made a dict to store the morse code and alphabets
 morse_english = {
     ".-": "A", "-...": "B", "-.-.": "C", "-..": "D", ".": "E", "..-.": "F",
     "--.": "G", "....": "H", "..": "I", ".---": "J", "-.-": "K", ".-..": "L",
@@ -29,5 +30,6 @@ def morse_to_english(code):
     return " ".join(deco_words)
 
 #MAIN function
-morse_code = ".... . .-.. .-.. ---   -- .- .-. ..."
-print(morse_to_english(morse_code))
+if __name__ == "__main__":
+    morse_code = ".... . .-.. .-.. ---   -- .- .-. ..."
+    print(morse_to_english(morse_code))
